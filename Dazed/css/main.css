@@ -1,0 +1,72 @@
+/* COMMON */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    background: #ffffff;
+    height: 3000px;
+}
+
+.material-icons {
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+
+
+header {
+    background: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 0 15px;
+    transition: .4s;
+}
+/* 로고 아이콘*/
+
+header>.material-icons {
+    position: absolute;
+}
+
+header>.material-icons#btn--open {
+    top: 10px;
+    display: block;
+}
+
+header>.material-icons#btn--close {
+    top: 10px;
+    display: none;
+}
+header img#logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:15px;
+    height: 130px;
+    width: 540px;
+    margin: auto;
+    transition: .4s;
+}
+
+
+nav {
+    position: absolute;
+    top: 30px;
+    height: calc(100vh - 60px);
+    width: 850px;
+    background: #000;
+    left: 0;
+    right:0;
+    margin: auto;
+    transform: translateX(-150%);
+    align-items: center;
+    transition: .6s;
+}
+
