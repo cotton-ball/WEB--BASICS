@@ -58,9 +58,9 @@ header img#logo {
 
 nav {
     position: absolute;
-    top: 30px;
+    top: 60px;
     height: calc(100vh - 60px);
-    width: 850px;
+    width: 1000px;
     background: #000;
     left: 0;
     right:0;

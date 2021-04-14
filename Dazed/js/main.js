@@ -14,6 +14,10 @@ menuOpenEl.addEventListener("click", function() {
     menuCloseEl.style.display = 'block'
     // 사이드 메뉴를 보이게 합니다 
     sideMenuEl.style.transform = 'translateX(0%)'
+    headerEl.style.height = '80px'
+        // 로고 요소의 높이 및 너비를 120px로 줄입니다
+        logoEl.style.height = '32.5px'
+        logoEl.style.width = '135px'
 })
 
 // 닫는 아이콘에 클릭 이벤트가 발생하면,
