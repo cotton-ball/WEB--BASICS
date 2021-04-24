@@ -21,7 +21,7 @@ body {
 .icon-letter{
     color: black;
     font-size: 11px;
-    font-weight: 900;
+    font-weight: 990;
 }
 .material-icons {
     color: black;
@@ -87,12 +87,43 @@ nav {
     z-index: 10;;
     overflow: hidden;
 }
-nav .inner {width:1370px;height:100%;background-color:#000;margin:0 auto;text-align: center;padding:20px 0;}
-nav .inner ul li {color:#fff;font-size:24px;font-weight: 900;text-align: center;padding:12px 0;}
-nav .inner .social-links {width:1370px;background-color:#000;margin:0 auto;padding:30px 0;text-align: center;}
-nav .inner .social-links svg {width: 44px;height: 44px;fill:#fff;} 
-nav .inner .social-links svg.icon-applemusic {width:22px;}
-nav .inner .board a {display:inline-block;margin:0 10px;font-size: 16px;font-weight: 600;color:#fff;;}
+nav .inner {
+    width: 967px;
+    height:100%;
+    background-color:#000;
+    margin:0 auto;
+    text-align: center;
+    padding:20px 0;
+}
+nav .inner ul li {
+    color:#fff;
+    font-size:24px;
+    font-weight: 900;
+    text-align: center;
+    padding:12px 0;
+}
+nav .inner .social-links {
+    width:967px;
+    background-color:#000;
+    margin:0 auto;
+    padding:30px 0;
+    text-align: center;
+}
+nav .inner .social-links svg {
+    width: 44px;
+    height: 44px;
+    fill:#fff;
+} 
+nav .inner .social-links svg.icon-applemusic {
+    width:22px;
+}
+nav .inner .board a {
+    display:inline-block;
+    margin:0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#fff;;
+}
 
 
 .menu__links{
@@ -106,40 +137,203 @@ nav .inner .board a {display:inline-block;margin:0 10px;font-size: 16px;font-wei
 .menu__links i{
     color: white;
 }
-
+.ewb-backToTop {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #fff;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 999;
+    line-height: 2.6rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
 /* MAIN */
-.contents {position:relative;top:175px;background-color:#fff;z-index: 1;margin-bottom:600px;padding-bottom: 20px;;}
-.contents .main {margin:0 auto;width:1350px;overflow: hidden;}
-.contents .main .img {float:left;width:860px;}
-.contents .main .img img {width:100%;}
-.contents .main .news {float:right;width:443px;}
-.contents .main .news h3 {margin-bottom:11px;font-size: 22px;font-weight: 900;;}
-.contents .main .news ul li {margin:5px 0;}
-.contents .main .news img {display:inline-block;width:114px;height:114px;vertical-align: middle;}
-.contents .main .news div {display:inline-block;width:245px;margin-left:5px;vertical-align: middle;}
-.contents .main .news div span{display:block;margin-bottom:10px;font-size: 13px;font-weight: 500;;}
-.contents .main .news div p{font-size: 16px;font-weight: 700;;}
-.contents .main .news .btn_more {font-size: 13px;font-weight: 400;display:block;margin-top:20px;padding:15px 0;width:100%;max-width:423px;border:1px solid #808080;text-align: center;}
-.contents .video {width:1600px;height:900px;margin:50px auto;}
-.contents .video iframe {width:100%;height:100%;}
-.contents .star {width:1600px;margin:0 auto;}
-.contents .star ul {font-size:0;;}
-.contents .star ul li {position:relative;display:inline-block;width:calc(33.3% - 20px);height:684px;margin:0 10px 50px;}
-.contents .star ul li img {width:100%;height:100%;}
-.contents .star ul li p {position:absolute;bottom:0;left:0;right:0;padding:15px 10px;word-break:keep-all;background-color:rgba(0,0,0,0.1);width:100%;font-size: 18px;color:#fff;font-weight:700;text-align:center;box-sizing: border-box;}
-.contents .article {width:1350px;margin:30px auto;}
-.contents .article h3 {text-align:center;font-size: 22px;font-weight: 900;margin-bottom:20px;;}
-.contents .article ul {overflow: hidden;}
-.contents .article ul li {float:left;width:25%}
-.contents .article ul li img {width:330px;height:220px;}
-.contents .article ul li span{display:block;margin:10px 0;font-size: 13px;font-weight: 500;;}
-.contents .article ul li p{font-size: 16px;font-weight: 700;word-break: keep-all;padding-right:30px;}
-.contents .article .btn_more {font-size: 13px;font-weight: 400;display:block;margin:40px auto 0;padding:15px 0;width:345px;border:1px solid #808080;text-align: center;}
+.contents {
+    position:relative;
+    top:175px;
+    background-color:#fff;
+    z-index: 1;
+    margin-bottom:600px;
+    padding-bottom: 20px;;
+}
+.contents .main {
+    margin:0 auto;
+    width:1350px;
+    overflow: hidden;
+}
+.contents .main .img {
+    float:left;
+    width:860px;
+}
+.contents .main .img img {
+    width:100%;
+}
+.contents .main .news {
+    float:right;
+    width:443px;
+}
+.contents .main .news h3 {
+    margin-bottom:11px;
+    font-size: 22px;
+    font-weight: 900;;
+}
+.contents .main .news ul li {
+    margin:5px 0;
+}
+.contents .main .news img {
+    display:inline-block;
+    width:114px;
+    height:114px;
+    vertical-align: middle;
+}
+.contents .main .news div {
+    display:inline-block;
+    width:245px;margin-left:5px;
+    vertical-align: middle;
+}
+.contents .main .news div span{
+    display:block;
+    margin-bottom:10px;
+    font-size: 13px;
+    font-weight: 500;;
+}
+.contents .main .news div p{
+    font-size: 16px;
+    font-weight: 700;;
+}
+.contents .main .news .btn_more {
+    font-size: 13px;
+    font-weight: 400;
+    display:block;
+    margin-top:20px;
+    padding:15px 0;
+    width:100%;
+    max-width:423px;
+    border:1px solid #808080;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.contents .video {
+    width:1600px;
+    height:900px;
+    margin:50px auto;
+}
+.contents .video iframe {
+    width:100%;
+    height:100%;
+}
+.contents .star {
+    width:1600px;
+    margin:0 auto;
+}
+.contents .star ul {
+    font-size:0;;
+}
+.contents .star ul li {
+    position:relative;
+    display:inline-block;
+    width:calc(28.3% - 20px);
+    height:604px;
+    margin:0 10px 50px;
+}
+.contents .star ul li img {
+    width:100%;
+    height:100%;
+}
+.contents .star ul li p {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:15px 10px;
+    word-break:keep-all;
+    background-color:rgba(0,0,0,0.1);
+    width:100%;
+    font-size: 18.5px;
+    color:#fff;
+    font-weight:700;
+    text-align:center;
+    box-sizing: border-box;
+}
+.contents .article {
+    width:1350px;
+    margin:30px auto;
+}
+.contents .article h3 {
+    text-align:center;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom:20px;;
+}
+.contents .article ul {
+    overflow: hidden;
+}
+.contents .article ul li {
+    float:left;
+    width:25%
+}
+.contents .article ul li img {
+    width:330px;
+    height:220px;
+}
+.contents .article ul li span{
+    display:block;
+    margin:10px 0;
+    font-size: 13px;
+    font-weight: 400;;
+}
+.contents .article ul li p{
+    font-size: 17px;
+    font-weight: 700;
+    word-break: keep-all;
+    padding-right:30px;
+}
+.contents .article .btn_more {
+    font-size: 13px;
+    font-weight: 400;
+    display:block;
+    margin:40px auto 0;
+    padding:15px 0;
+    width:345px;
+    border:1px solid #808080;
+    text-align: center;
+    text-decoration: underline;
+}
 
 /*FOOTER*/
 
-footer {position:fixed;left:0;right:0;bottom:0;text-align:center;background:#000 url(../images/dazed__footer_logo_w.png) no-repeat center 10px;height:339px;z-index:0;}
-footer .social-links {padding-top:200px;margin-bottom:20px;}
-footer svg {width: 44px;height: 44px;fill:#fff;} 
-footer svg.icon-applemusic {width:22px;}
-footer a {font-size:14px;font-weight: 600;color:#fff;margin:0 10px;}
+footer {
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:center;
+    background:#000 url(../images/dazed__footer_logo_w.png) no-repeat center 10px;
+    height:339px;
+    z-index:0;
+}
+footer .social-links {
+    padding-top:200px;
+    margin-bottom:20px;
+}
+footer svg {
+    width: 44px;
+    height: 44px;
+    fill:#fff;
+} 
+footer svg.icon-applemusic {
+    width:22px;
+}
+footer a {
+    font-size:14px;
+    font-weight: 600;
+    color:#fff;
+    margin:0 10px;
+}
