@@ -239,8 +239,8 @@ nav .inner .board a {
 .contents .star ul li {
     position:relative;
     display:inline-block;
-    width:calc(28.3% - 20px);
-    height:604px;
+    width:calc(33.3% - 20px);
+    height:684px;
     margin:0 10px 50px;
 }
 .contents .star ul li img {
