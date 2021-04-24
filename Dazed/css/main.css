@@ -1,14 +1,21 @@
 /* COMMON */
 
 body {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", Malgun Gothic, Dotum, '돋움', Helvetica, Apple SD Gothic Neo, sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
     line-height: 1.4;
     background: #ffffff;
     height: 3000px;
+    width: 960px;
 }
-
+.icon-letter{
+    color: black;
+    font-size: 13px;
+    font-weight: 900;
+}
 .material-icons {
     color: black;
     font-size: 32px;
@@ -26,8 +33,9 @@ header {
     display: flex;
     position: fixed;
     align-items: center;
-    padding: 0 15px;
+    padding: 0px 10px 8px;
     transition: .4s;
+    z-index: 1;
 }
 /* 로고 아이콘*/
 
@@ -36,12 +44,12 @@ header>.material-icons {
 }
 
 header>.material-icons#btn--open {
-    top: 10px;
+    top: 7px;
     display: block;
 }
 
 header>.material-icons#btn--close {
-    top: 10px;
+    top: 7px;
     display: none;
 }
 header img#logo {
@@ -70,3 +78,19 @@ nav {
     transition: .6s;
 }
 
+
+.menu__links{
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.menu__links i{
+    color: white;
+}
+
+#bottom{
+    float: left;
+}
