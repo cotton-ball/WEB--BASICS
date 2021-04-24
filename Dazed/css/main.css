@@ -201,7 +201,7 @@ nav .inner .board a {
     display:block;
     margin-bottom:10px;
     font-size: 13px;
-    font-weight: 500;;
+    font-weight: 450;;
 }
 .contents .main .news div p{
     font-size: 16px;
@@ -239,8 +239,8 @@ nav .inner .board a {
 .contents .star ul li {
     position:relative;
     display:inline-block;
-    width:calc(33.3% - 20px);
-    height:684px;
+    width:calc(29.3% - 20px);
+    height:604px;
     margin:0 10px 50px;
 }
 .contents .star ul li img {
